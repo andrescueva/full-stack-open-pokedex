@@ -13,8 +13,8 @@ jobs:
           node-version: '16'
       - name: install dependencies
         run: |
-          npm install 
+          npm install --save-dev
       - name: lint
         run: |
-          npm run eslint --save-dev
+          npm run eslint 
     
