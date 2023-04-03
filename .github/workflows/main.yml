@@ -16,5 +16,5 @@ jobs:
           npm install 
       - name: lint
         run: |
-          npm run eslint
+          npm run eslint --save-dev
     
