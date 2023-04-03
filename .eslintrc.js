@@ -48,6 +48,6 @@ module.exports = {
     ],
     //"no-console": "error",
     "react/prop-types": 0,
-    "semi": ["error", "always"]
+    "semi": ["error", "off"]
   }
 }
