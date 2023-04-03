@@ -1,6 +1,6 @@
 name: JavaScript App CI/CD
 on:
-  workflow_run:
+  workflow_dispatch:
 jobs:
   checkout:
     runs-on: ubuntu-20.04
